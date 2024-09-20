@@ -7,12 +7,14 @@ dependencies:
   - diffusers=0.16.1
   - matplotlib
   - pandas
-  - numpy
-  - flask
+  - numpy  
   - pip
-  - jupyter
-  - ipykernel
-  - openai
-pip:
-  - langchain[all]
-  - langchain-community
+  # - jupyter
+  # - ipykernel
+  - openai=0.28  
+  # - axios
+  - pip:
+    - langchain[all]
+    - langchain-community
+    - flask
+    - pydantic 

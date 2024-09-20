@@ -1,0 +1,67 @@
+/* body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);   
+    gap: 10px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.square.selected {
+    background-color: #4CAF50;   
+    color: white;
+} 
+
+*/
+
+    /* ###### For my Image Gallery ###### */
+    /* .step {
+        margin-bottom: 20px;
+    } */
+    .step img {
+        max-width: 100%;
+        height: auto;
+    }
+    .step-description {
+        font-size: 1.2em;
+        color: #333;
+        margin-top: 10px;
+    }
+
+
+    /* ###### Bootstrap ###### */
+    body {
+        background-color: #feda00; /* Light grey background */
+        color: #914c4f; 
+    }
+
+    .accordion-body {
+        padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+        background-color: #282f5d;
+        
+    }
+    .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+        border-radius: 0;
+        background-color: #fe645a;
+        color:#f9fff9;
+    }
+    .accordion-flush>.accordion-item {
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
+        border-block-color: #fe524e;
+    }
