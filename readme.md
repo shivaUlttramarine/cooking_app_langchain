@@ -38,7 +38,7 @@ Access the application at http://localhost:5000.
 run with access to the container os:
 - docker run -it -p 5000:5000 my_flask_app
 run docker with openai key
-- docker run -e OPENAI_API_KEY= "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" -p 5000:5000 my_flask_app
+- docker run -e OPENAI_API_KEY= "xxxxx" -p 5000:5000 my_flask_app
 
 
 
@@ -68,12 +68,22 @@ verify configuration:
 -aws s3 ls
 
 
-4. EC2:
-create EC2 and save cooking.pom
+4. connect to EC2:
+create EC2 and save coockingapp.pom
+make sure just your user has access to coockingapp.pom
 click on instance -> connect -->ssh client --> take the code:
 connect to ec2:
+- cd D:\project\coocking\for me
 - ssh -i /path/to/your-key.pem ubuntu@ec2-your-ip-address.compute-1.amazonaws.com
 - ssh -i "cookingapp.pem" ubuntu@ec2-35-159-25-78.eu-central-1.compute.amazonaws.com
+install required libs on os:
+- sudo apt update && sudo apt upgrade
+- sudo apt install git
+- python3 --version
+sudo apt install python3 python3-pip
+- sudo apt update && sudo apt upgrade
+- sudo apt install python3-venv
+- sudo apt install nginx
 
 4. add Docker image to ECR by CLI
  take your repository id:
