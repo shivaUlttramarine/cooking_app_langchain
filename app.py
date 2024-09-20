@@ -11,7 +11,7 @@ import process.model as process
 #     api_key = file.read().strip()
 # f = open('openaikey.txt', 'r')
 # os.environ["OPENAI_API_KEY"]=f.read()
-
+ 
 
 # Carbohydrates
 list_cooking_time =['15','30','45','60','90','120','180 or more']
@@ -49,7 +49,7 @@ list_ingredients_vegetables = [
 ]
 
 
-list_ingredients_dairy = [
+list_ingredients_dairy = [ 
     'milk', 'butter', 'cheese', 'yogurt', 'cream', 'cottage cheese', 'sour cream', 'mozzarella', 'cheddar',
     'parmesan', 'swiss cheese', 'feta', 'ricotta', 'cream cheese', 'kefir', 'buttermilk', 'gouda',
     'blue cheese', 'goat cheese', 'gruyere', 'fontina', 'provolone', 'brie', 'mascarpone', 'evaporated milk',

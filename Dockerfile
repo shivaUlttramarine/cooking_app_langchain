@@ -18,7 +18,8 @@ EXPOSE 5000
 
 # Set environment variables
 ENV FLASK_APP=app.py
-ENV PATH=/opt/conda/envs/env_cooking/bin:$PATH
+ENV PATH=/opt/conda/envs/env_cooking/bin:$PATH 
 
 # Run the application using the conda environment
 CMD ["conda", "run", "--no-capture-output", "-n", "env_cooking", "flask", "run", "--host=0.0.0.0"]
+ 

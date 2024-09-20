@@ -6,7 +6,7 @@
 
 
 2.create bash file and give proper access:
- - chmod +x ~/app.sh
+ - chmod +x ~/app.sh 
 
 3.connect to git:
  - git config --global user.email "shiva.ghandi.bi.1992@gmail.com"
@@ -23,7 +23,7 @@ pass: 4270107
 - git remote add origin https://github.com/shivaUlttramarine/cooking_app_langchain.git
 
 - git add .
-- git commit -m ""
+- git commit -m "" 
 - git push --set-upstream origin master
 - git push -u origin main
 - git push origin main

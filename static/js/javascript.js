@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const cookingTimeSelect = document.getElementById('items_cooking_time');
     const imagesContainer = document.getElementById('imagesContainer');
 
-
+ 
     submitBtn.addEventListener('click', function() {
         // Clear the previous list of selected items
         selectedItemsList.innerHTML = "  ";

@@ -8,7 +8,7 @@ from langchain.schema import HumanMessage, SystemMessage
 # import reciept as rcp
 from pydantic import BaseModel
 import openai
-import requests
+import requests 
 
 
 
@@ -84,7 +84,7 @@ def func_ai_create_recept(selected_ingredients,selected_cooking_time) -> reciept
 
     result = chat_model(messages)
     
-
+ 
     print(f'******* rsutlt:{result}')
     # print(result['choices'][0]['message']['content']) 
     recept      = result.content

@@ -11,10 +11,10 @@ dependencies:
   - pip
   # - jupyter
   # - ipykernel
-  - openai=0.28  
+  - openai=0.28   
   # - axios
   - pip:
     - langchain[all]
     - langchain-community
     - flask
-    - pydantic 
+    - pydantic   
