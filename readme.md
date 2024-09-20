@@ -34,8 +34,6 @@ Build docker image:
 in the folder of where your Dockerfile exists:
 - docker build -t my_flask_app .
 - docker images
-test the Docker container locally 
-- docker run -p 5000:5000 my_flask_app
 Access the application at http://localhost:5000.
 run with access to the container os:
 - docker run -it -p 5000:5000 my_flask_app
@@ -44,7 +42,7 @@ run docker with openai key
 
 
 
-
+-------------------------------------
 4. INSTAll AWS CLI:
 install CLI: https://aws.amazon.com/cli/
 cmd --> aws --version
@@ -68,6 +66,14 @@ Default output format [None]: json
 verify configuration:
 -aws sts get-caller-identity
 -aws s3 ls
+
+
+4. EC2:
+create EC2 and save cooking.pom
+click on instance -> connect -->ssh client --> take the code:
+connect to ec2:
+- ssh -i /path/to/your-key.pem ubuntu@ec2-your-ip-address.compute-1.amazonaws.com
+- ssh -i "cookingapp.pem" ubuntu@ec2-35-159-25-78.eu-central-1.compute.amazonaws.com
 
 4. add Docker image to ECR by CLI
  take your repository id:

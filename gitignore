@@ -1,1 +1,4 @@
 openaikey.txt
+
+*.pem
+*.pyc
