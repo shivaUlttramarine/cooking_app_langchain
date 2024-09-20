@@ -68,7 +68,7 @@ verify configuration:
 -aws s3 ls
 
 
-4. connect to EC2:
+5. connect to EC2:
 create EC2 and save coockingapp.pom
 make sure just your user has access to coockingapp.pom
 click on instance -> connect -->ssh client --> take the code:

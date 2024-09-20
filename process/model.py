@@ -9,8 +9,6 @@ from langchain.schema import HumanMessage, SystemMessage
 from pydantic import BaseModel
 import openai
 import requests
-# os.environ["OPENAI_API_KEY"]= "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"
-# openai.api_key = "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"
 
 
 
